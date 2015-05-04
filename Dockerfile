@@ -16,5 +16,3 @@ RUN mkdir -p /helpers \
 RUN /bin/bash /helpers/install-base.sh
 
 VOLUME /var/log
-
-CMD ["postgres", "-l", "/var/log/postgres/postgresql-${PG_MAJOR}.log"]
