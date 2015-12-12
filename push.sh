@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-docker push docker.rodeopartners.com/postgres:9.4
-docker push docker.rodeopartners.com/postgres:latest
+docker push caleb/postgres:9.4
+docker push caleb/postgres:latest
